@@ -51,5 +51,5 @@ func runBot(stop chan bool, wg *sync.WaitGroup) {
 }
 
 func doCheck() {
-	myLog("Hello!")
+	readFromFirebase ()
 }
